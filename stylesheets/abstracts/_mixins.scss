@@ -2,6 +2,8 @@
 // This file contains all application-wide Sass mixins.
 // -----------------------------------------------------------------------------
 
+@import './variables';
+
 /// Event wrapper
 /// @author Harry Roberts
 /// @param {Bool} $self [false] - Whether or not to include current selector
@@ -30,5 +32,9 @@
   #{$context} & {
     @content;
   }
+}
+
+@mixin addBorder($borderThickness) {
+  border: $borderThickness solid $brand-color;
 }
 

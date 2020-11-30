@@ -33,3 +33,9 @@
 // 7. Themes
 @import
   'themes/default';
+
+
+
+main {
+  @extend .container;
+}
