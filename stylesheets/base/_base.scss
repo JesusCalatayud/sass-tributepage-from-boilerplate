@@ -57,11 +57,11 @@ body {
   }
 
   @media screen and (max-width: map-get($map: $breakpoints, $key: 'medium')) {
-
-    h1 {
+    
+    * {
       font-size: 1rem;
     }
-
+      
   }
 
 }

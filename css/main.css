@@ -386,7 +386,7 @@ body img {
   box-sizing: border-box;
 }
 @media screen and (max-width: 768px) {
-  body h1 {
+  body * {
     font-size: 1rem;
   }
 }
